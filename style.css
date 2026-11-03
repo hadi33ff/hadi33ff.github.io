@@ -362,6 +362,14 @@ section:hover h2 {
 .birthday {
     position: relative;
 }
+.payments {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.payments:hover {
+    transform: scale(1.1);
+}
 
 #countdown {
     font-size: 25px;
