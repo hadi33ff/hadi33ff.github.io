@@ -362,14 +362,6 @@ section:hover h2 {
 .birthday {
     position: relative;
 }
-.payments {
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-.payments:hover {
-    transform: scale(1.1);
-}
 
 #countdown {
     font-size: 25px;
@@ -591,4 +583,19 @@ footer:hover {
     .games {
         grid-template-columns: 1fr;
     }
+}
+
+.ai-button {
+    padding: 8px 18px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
 }
